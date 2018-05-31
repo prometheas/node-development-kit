@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-pheidian",
+  "version": "0.0.0",
+  "description": "A very civilized ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prometheas/node-development-kit.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint",
+    "config",
+    "eslint-config"
+  ],
+  "author": "John Lianoglou <prometheas@users.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prometheas/node-development-kit/issues"
+  },
+  "homepage": "https://github.com/prometheas/node-development-kit#readme"
+}
