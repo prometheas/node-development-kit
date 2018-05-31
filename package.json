@@ -1,0 +1,30 @@
+{
+  "name": "development-kit",
+  "version": "1.0.0",
+  "description": "⚙️ Shit I use for Node development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prometheas/node-development-kit.git"
+  },
+  "keywords": [
+    "node",
+    "dev",
+    "nodejs",
+    "dev",
+    "node",
+    "development",
+    "nodejs",
+    "development",
+    "ndk"
+  ],
+  "author": "John Lianoglou <prometheas@users.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prometheas/node-development-kit/issues"
+  },
+  "homepage": "https://github.com/prometheas/node-development-kit#readme"
+}
