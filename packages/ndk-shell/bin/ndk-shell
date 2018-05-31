@@ -1,0 +1,17 @@
+#! /bin/sh
+
+SCRIPT_DIR=`dirname $0`
+PACKAGE_ROOT=`dirname "$SCRIPT_DIR"`
+
+docker build -t ndk-shell "$PACKAGE_ROOT"
+
+if [ -f "$PWD/.ndk-ports" ]; then
+  NDK_PORTS=(`cat "$PWD/.ndk-ports"`)
+fi
+
+if [ -z "$NDK_PORTS" ]; then
+  PORTS=($NDK_PORTS)
+fi
+
+docker run --rm -it \
+  ndk-shell bash -l
