@@ -1,0 +1,38 @@
+{
+  "name": "ndk-shell",
+  "version": "0.0.0",
+  "description": "A docker-based shell environment configured expressly for Node development",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prometheas/node-development-kit.git"
+  },
+  "keywords": [
+    "dev",
+    "shell",
+    "dev",
+    "env",
+    "docker",
+    "shell",
+    "node",
+    "dev",
+    "node",
+    "dev",
+    "tool",
+    "node",
+    "shell",
+    "nvm",
+    "shell",
+    "node",
+    "env"
+  ],
+  "author": "John Lianoglou <prometheas@users.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prometheas/node-development-kit/issues"
+  },
+  "homepage": "https://github.com/prometheas/node-development-kit#readme"
+}
